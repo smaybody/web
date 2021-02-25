@@ -1,12 +1,12 @@
 body {
 	padding-right: 40px;
-	background-color: cadetblue;
+	background-color: black;
 	}
 	
 h1 {
 	padding-right: 40px;
 	color: lightsteelblue;
-	font: italic 1.2em "Fira Sans", serif;
+	font: 1.2em "Fira Sans", serif;
 	}
 
 p  {
