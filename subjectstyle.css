@@ -13,3 +13,9 @@ p  {
 	padding-right: 40px;
 	color: lightslategray;
 	}
+
+nav {
+	padding-right: 40px;
+	color: lightsteelblue;
+	font: 1.2em "Fira Sans", serif;
+}
