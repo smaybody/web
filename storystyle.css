@@ -6,23 +6,35 @@ body {
 h1 {
 	padding-right: 200px;
 	color: lightsteelblue;
-	font: 1.5em "Fira Sans", serif;
-	}
-
-head {
-	padding-right: 200px;
-	color: lightsteelblue;
-	font: 3em "Fira Sans", serif;
+	font: 1em "Papyrus", serif;
+	font-size: 200%
 	}
 	
+h2 {
+	padding-right: 200px;
+	color: lightslategray;
+	font: 1em "Times New Roman", serif;
+	font-size: 125%
+	}
+	
+h3 {
+	padding-right: 200px;
+	color: lightslategray;
+	font: 1em "Times New Roman", serif;
+	font-size: 100%
+	}
+
+
+
 p  {
 	padding-right: 200px;
 	color: lightslategray;
+	font: 1em "Times New Roman", serif;
 	}
 
 nav {
 	padding-right: 200px;
 	color: lightsteelblue;
-	font: 3em "Fira Sans", serif;
+	font: 3em "Times New Roman", serif;
 }
 	
