@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang=”en”>
 <head>
+<title> ESS compsci final story</title>
 <link rel="stylesheet" href="storystyle.css">
-<title>Prince Theodore’s Journey.page 1</title>
 </head>
-<h1>Come Join Prince Theodore on His Quest!</h1>
-<body>
-<p>
-Welcome to the tale of Prince Theodore, in which you can control our protagonist as he journeys throughout his former kingdom trying to make ends meet. On your travels you will face perils ranging from bar fights to duels with imperial soldiers, and either emerge victorious or die trying depending on what actions you choose to take.
+<h1>Prince Theodore's Journey, a choose your own adventure game</h1>
+<h2> Samira M, Emily Y-S, and Shayan M, period 9</h2>
+<ul>
+<li>
+<h3>Project Overview</h3>
+<p> "This program allows you to play as Prince Theodore, the heir to the kingdom of Grandworth following your expulsion from the castle by the king. You will go on a text-based journey across the kingdom, trying to make ends meet and return to the castle safely.</p>
+</li>
+<li>
+<h3>Instructions</h3>
+<p>After running the python file, you will read through the text given to you. Then, type in or copy and paste the option you want to choose and continue accordingly. If you die along the way then feel free to start again, since the story has multiple paths and endings.</p>
+</li>
+<li>
+<h3>How the project works</h3>
+<p>Starting the program will have it print the prologue to the story, which serves as a method to provide context for the events to come rather than being interactable with. Then, the counter function runs through a python file containing all of the possible story elements, and is used to create dictionaries detailing both the events of the story and their corresponding categorizations as well as the points that individual actions will reward the player with. From there, the program utilizes a series of branching if statements to continue the story as the player sees fit. As the player makes new choices, each new point they accumulate is added to the end of a list, the length of which is used to display their total score following the story's conclusion. Finally, in addition to a statement detailing the player's final score, the program also generates a graph based on whether they earned points or not for each choice they made during their campaign.</p>
+</li>
+<li>
+<h3>Files used</h3>
+<ul>
+<li>
+<p>Final Project.py: The program the player runs in order to go through the story.</p>
+</li>
+<li>
+<p>storylines.py: A list of all events that can take place during the course of the story; it is read into and referenced by the final project file.</p>
+</li>
+<li>
+<p>story.html: The page you are reading now, detailing different aspects of the project</p>
+</li>
+<li>
+<p>storystyle.css: CSS file used to style this page</p>
+</li>
+</ul>
+<li>
+<h3>Resources used</h3>
+<p>The only external resource used was matplotlib, which we used to generate our graph at the end of the story</p>
+</li>
 
-</p>
-</body>
-
-<head>
-<title>Prince Theodore’s Journey.page 2</title>
-</head>
-
-<h1>About the Story </h1>
-<body>
-<p>
-The story takes place in the kingdom of Grandworth, ruled by king Astor and his court. The high fantasy setting introduces you to a bustling market town furnished with shops, vendors, and cottages, along with thieves, assassins, and rowdy drunkards. During your journey, you will venture through a winding forest, fending for yourself as you make your way towards your goal.
-
-</p>
+</ul>
 </body>
 </html>
+
