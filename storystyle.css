@@ -1,0 +1,28 @@
+body {
+	padding-right: 200px;
+	background-color: azure;
+	}
+	
+h1 {
+	padding-right: 200px;
+	color: lightsteelblue;
+	font: 1.5em "Fira Sans", serif;
+	}
+
+head {
+	padding-right: 200px;
+	color: lightsteelblue;
+	font: 3em "Fira Sans", serif;
+	}
+	
+p  {
+	padding-right: 200px;
+	color: lightslategray;
+	}
+
+nav {
+	padding-right: 200px;
+	color: lightsteelblue;
+	font: 3em "Fira Sans", serif;
+}
+	
